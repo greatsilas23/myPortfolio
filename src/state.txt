@@ -1,0 +1,25 @@
+logs: {
+            portfolioLog: "Portfolio Section",
+            aboutLog: "About Section",
+            valuesLog: "Values Section",
+            executivesLog: "Executives Section",
+            sideMenuLog: "SideMenu Section"
+        },
+        whatIsShowing: {
+            portfolioSection: {
+                isShowing: true,
+                whatIsThere: {},
+            },
+            aboutSection: {
+                isShowing: false,
+                whatIsThere: {},
+            },
+            valuesSection: {
+                isShowing: false,
+                whatIsThere: {},
+            },
+            executivesSection: {
+                isShowing: false,
+                whatIsThere: {},
+            },
+        }

@@ -18,4 +18,32 @@ app.post("/", function(req, res){
     let result = num1 + num2
 })
 
+app.post('/', (req, res) => {
+	let dailyChallenge = Math.floor(Math.random(9))
+	let gold = 70
+	let silver = 50 
+	let bronze = 20
+	let scholar = dailyChallenge * 10
+	let subTotal = 0
+	let bakshishi = 1
+	switch(bodyParser(req.body.XP)){	
+		case (req.body.XP.gold === true):
+			subTotal += gold
+			break
+		case (req.body.XP.silver === true):
+			subTotal += silver
+			break
+		case (req.body.XP.bronze === true):
+			subTotal += bronze
+			break
+		case (req.body.XP.scholar === true):
+			subTotal += scholar
+			break
+		default:
+			subTotal += bakshishi
+			break
+	}
+	console.log(Number(subTotal))
+	res.status(201).send(Number(subTotal))
+})
 app.listen(port, () => console.log(`Listening on port ${port}`))

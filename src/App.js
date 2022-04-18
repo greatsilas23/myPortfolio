@@ -1,5 +1,5 @@
 import React, {Component} from 'react'
-import VectorsDifferentialGeometry from './components/VectorsDifferentialGeometry.js'
+
 
 class App extends Component {
     constructor(props){
@@ -62,7 +62,17 @@ class App extends Component {
     render(){
         return(
             <div className="App">
-                <VectorsDifferentialGeometry />
+		<form action="http://localhost:5000/" method="post">
+			<label>Quiz</label><br/>
+			<input id="quiz" name="quiz" type="text" placeholder="70"/><br/>
+			<label>Group</label><br/>
+			<input id="group" name="group" type="text" placeholder="70"/><br/>
+			<label>Quiz</label><br/>
+			<input id="listening" name="listening" type="text" placeholder="70"/><br/>
+			<label>Quiz</label><br/>
+			<input id="project" name="project" type="text" placeholder="70"/><br/>
+			<input type="submit" name="submit" value="average"/><input type="reset" value="clear"/>
+		</form>
             </div>
         )
     }

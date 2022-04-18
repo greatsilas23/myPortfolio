@@ -1,9 +1,11 @@
 {
   "name": "my-app",
-  "version": "0.1.0",
+  "version": "1.0.1",
   "private": true,
   "dependencies": {
+    "body-parser": "^1.19.1",
     "express": "^4.17.1",
+    "pg": "^8.7.3",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "0.9.5"
@@ -19,8 +21,8 @@
   "main": "index.js",
   "keywords": [],
   "author": "greatsilas23",
-  "license": "ISC",
-  "proxy": "http://localhost:5000",
+  "license": "MIT",
+  "proxy": "http://localhost:3000",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/greatsilas23/Magari_react_version.git"

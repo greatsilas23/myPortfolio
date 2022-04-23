@@ -212,7 +212,7 @@ class App extends Component {
         return(
             <div className="App">
                 {this.state.root.map((item) => {
-                    <div style={{height: '10vh', width: '100vw'}}><p>{item.content}</p></div>
+                    <div style={{height: '10vh', width: '100vw', color: 'black', backgroundColor: 'grey'}}><p>{item.content}</p></div>
                 })}
 
 	            {this.state.showTitle && <Title handleClick={this.handleShowTitle} titleDescription={this.state.title.description}/>}

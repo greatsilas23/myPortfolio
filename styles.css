@@ -1,0 +1,163 @@
+/* body*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+body {
+	font: 15px/1.5;
+	font-family: 'Roboto Condensed', sans-serif;
+	padding: 0;
+	margin: 0;
+	background-color: #f8f8f8;
+	;
+}
+/*Global*/
+.container{
+	width: 80%;
+	padding: 0;
+	margin: auto;
+	overflow:hidden;
+}
+ul{
+	margin: 0;
+	padding:0;
+}
+header{
+	background: #35424a;
+	color: #ffff;
+	padding-top: 30px;
+	min-height: 70px;
+	border-bottom: #e8491d 3px solid;
+}
+header a{
+	color:#ffff;
+	text-decoration: none;
+	text-transform:uppercase;
+	font-size:16px;
+}
+header li{
+	float: left;
+	display: inline;
+	padding: 0 20px 0 20px;
+}
+header #branding{
+	float: left;
+
+}
+header #branding h1{
+	margin: 0;
+
+}
+header nav{
+	float: right;
+	margin-top: 20px;
+}
+header .highlight, header .current a{
+	color: #e8491d;
+	font-weight: bold;
+
+}
+header a:hover{
+	color: #e8491d;
+	font-weight: bold;
+
+}
+/*landing*/
+#landing{
+	min-height: 400px;
+	position: relative;
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	color: #ffff;
+}
+#landing::before{
+	content:"";
+	position: absolute;
+	background:url("../img/landing3.jpg") no-repeat;
+	top: 0px;
+	right:0px;
+	bottom:0px;
+	left: 0px;;
+	/*background-color: rgba(255, 0, 0, 0.1);*/
+	background-size: cover;
+	opacity: 0.8;
+}
+
+#landing h1{
+	position: relative;
+	margin-top: 200px;
+	font-size: 55px;
+	margin-bottom:10px;
+}
+#landing p{
+	position: relative;
+	font-weight: bold;
+	font-size: 20px;
+
+}
+.highlight{
+	color: #e8491d;
+	font-weight: bold;
+}
+/*Projects*/
+#projects{
+	margin-top: 0;
+	margin-bottom: 5px;
+	background-color: #35424a;
+	color: #ffff;
+	border-bottom: #e8491d 3px solid;
+
+}
+#projects .projects{
+	float: left;
+	width: 30%;
+	padding: 10px;
+	text-align:center;
+
+}
+#projects .projects img{ 
+	width:90x;
+	background-color: #e8491d ;
+
+}
+section .projects:hover{
+	background-color:#f8f8f8;
+	color:#e8491d;
+	
+}
+#projects h1{
+	font-size: 25px;
+}
+footer{
+	padding: 20px;
+	background-color: #35424a;
+	color: #ffff;
+	text-align: center;
+
+}
+.contact-us img{
+	float: right;
+	align-items: center;
+
+}
+
+/*sections*/
+#about{
+	border-bottom: #e8491d 3px solid;
+	text-align: center;
+}
+#qualifications{
+	border-bottom: #e8491d 3px solid;
+	text-align: center;
+}
+#workexperience{
+	border-bottom: #e8491d 3px solid;
+	padding-bottom: 20px;
+	text-align: center;
+}
+#skills{
+	border-bottom: #e8491d 3px solid;
+	text-align: center;
+}

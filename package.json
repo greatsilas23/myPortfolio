@@ -1,0 +1,24 @@
+{
+  "name": "myportfolio",
+  "version": "1.0.0",
+  "description": "greatsilas23 portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/greatsilas23/myPortfolio.git"
+  },
+  "author": "greatsilas23",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/greatsilas23/myPortfolio/issues"
+  },
+  "homepage": "https://github.com/greatsilas23/myPortfolio#readme",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "http": "0.0.1-security",
+    "url": "^0.11.0"
+  }
+}
